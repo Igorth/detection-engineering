@@ -29,4 +29,3 @@ reference = "https://attack.mitre.org/techniques/T1059/003/"
 id = "TA0002"
 name = "Execution"
 reference = "https://attack.mitre.org/tactics/TA0002/"
-
