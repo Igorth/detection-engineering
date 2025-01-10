@@ -1,0 +1,11 @@
+name,date,author,risk_score,severity,tactic,technique,subtechnique
+Potential MSF PowerShell Payload Observed,2024/11/10,['Igor Dias'],47,medium,Execution,T1059 - Command and Scripting Interpreter,T1059.001 - PowerShell
+Data archive for potential exfil,2025/01/10,['Igor Dias'],32,low,Collection,T1074 - Data Staged,T1074.001 - Local Data Staging
+PowerShell Execution via a BAT file,2023/11/10,['Igor Dias'],21,low,Execution,T1059 - Command and Scripting Interpreter,T1059.001 - PowerShell
+Suspicious File Added to Registry,2024/12/10,['Igor Dias'],75,high,Persistence,T1547 - Boot or Logon Autostart Execution,T1547.001 - Registry Run Keys / Startup Folder
+PowerShell Invoke-WebRequest Downloading .BAT file,2024/11/10,['Igor Dias'],50,medium,Execution,T1059 - Command and Scripting Interpreter,T1059.001 - PowerShell
+Excessive Web Traffic,2025/01/10,['Igor Dias'],25,low,Discovery,T1046 - Network Service Discovery,none - none
+Bat files observed in HTTP Traffic on Unusual Port,2025/01/10,['Igor Dias'],100,high,Execution,T1059 - Command and Scripting Interpreter,T1059.003 - Windows Command Shell
+Web Scanner Activity - Nmap and Nikto,2024/12/10,['Igor Dias'],21,low,Discovery,T1046 - Network Service Discovery,none - none
+Data Exfiltration Observed via FTP,2025/01/10,['Igor Dias'],37,low,Exfiltration,T1020 - Automated Exfiltration,none - none
+Suspicious File Written to Temp Directory,2024/12/10,['Igor Dias'],75,high,Discovery; Discovery,T1082 - System Information Discovery; T1217 - Browser Information Discovery,none - none; none - none
