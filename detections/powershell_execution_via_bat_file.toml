@@ -1,3 +1,6 @@
+[metadata]
+creation_date = "2025/01/10"
+
 [rule]
 author = ["Igor Dias"]
 description = "From looking at the sysmon_operational logs, we're triggering on powershell running through a bat file execution."
